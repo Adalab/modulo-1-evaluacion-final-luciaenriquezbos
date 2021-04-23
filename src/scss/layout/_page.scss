@@ -4,10 +4,6 @@ body {
 }
 
 .page__main {
-  display: flex;
-  flex-direction: column;
-  height: 376px;
-  width: 100%;
   padding-top: 30px;
   padding-left: 15px;
   padding-right: 15px;
@@ -17,9 +13,10 @@ body {
   font-family: $font-main;
   font-size: 14px;
   color: #8ccbea;
+  line-height: 30px;
 }
 
-.title_article {
+.title_article1 {
   font-family: $font-title;
   text-transform: capitalize;
   max-width: 250px;
@@ -32,6 +29,7 @@ body {
   font-size: 18px;
   color: #4a4a4a;
   padding-bottom: 30px;
+  line-height: 1.67;
 }
 
 .open_content {
@@ -45,5 +43,6 @@ body {
   font-size: 20px;
   color: #f26002;
   border: solid 2px #f26002;
-  border-radius: 20px;
+  border-radius: 22.5px;
+  margin-bottom: 45px;
 }
