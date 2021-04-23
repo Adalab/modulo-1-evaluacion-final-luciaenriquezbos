@@ -46,3 +46,9 @@ body {
   border-radius: 22.5px;
   margin-bottom: 45px;
 }
+
+.article-list {
+  display: grid;
+  grid-template-rows: 138px 138px 138px;
+  // background-color: #eff9ff;
+}
