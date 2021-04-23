@@ -1,5 +1,8 @@
 .page__header {
   background: url(../images/cover.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-x: center;
   height: 100vh;
   display: flex;
   position: relative;
@@ -9,4 +12,25 @@
   width: 100%;
   left: 0;
   top: 0;
+  color: white;
+}
+
+.anonimous {
+  font-size: 42px;
+  text-align: center;
+  max-width: 250px;
+  text-transform: uppercase;
+}
+
+.habittasse {
+  font-size: 16px;
+  margin-top: 10px;
+  margin-bottom: 63px;
+}
+
+.botton_footer {
+  width: 45px;
+  height: 45px;
+  background: white;
+  border-radius: 50%;
 }
