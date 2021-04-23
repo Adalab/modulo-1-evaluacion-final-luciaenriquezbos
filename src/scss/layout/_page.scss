@@ -4,14 +4,40 @@ body {
 }
 
 .page__main {
+  display: flex;
+  flex-direction: column;
   height: 376px;
   width: 100%;
-  padding: 30px 15px 45px;
-  background-color: red;
+  padding-top: 30px;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 .text_sup {
   font-family: $font-main;
   font-size: 14px;
   color: #8ccbea;
+}
+
+.title_article {
+  font-family: $font-title;
+  text-transform: capitalize;
+  max-width: 250px;
+  color: black;
+  margin-bottom: 15px;
+}
+
+.p_article1 {
+  font-family: $font-main;
+  font-size: 18px;
+  color: #4a4a4a;
+  padding-bottom: 30px;
+}
+
+.open_content {
+  font-family: $font-main;
+  font-weight: medium;
+  font-size: 20px;
+  color: #f26002;
+  background-color: lawngreen;
 }
