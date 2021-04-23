@@ -35,9 +35,15 @@ body {
 }
 
 .open_content {
+  display: flex;
+  width: 76px;
+  height: 45px;
+  justify-content: center;
+  align-items: center;
   font-family: $font-main;
   font-weight: medium;
   font-size: 20px;
   color: #f26002;
-  background-color: lawngreen;
+  border: solid 2px #f26002;
+  border-radius: 20px;
 }
