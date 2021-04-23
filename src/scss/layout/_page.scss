@@ -1,5 +1,17 @@
 body {
   background-color: $color-bg;
   font-family: $font-main;
-  height: 320vh;
+}
+
+.page__main {
+  height: 376px;
+  width: 100%;
+  padding: 30px 15px 45px;
+  background-color: red;
+}
+
+.text_sup {
+  font-family: $font-main;
+  font-size: 14px;
+  color: #8ccbea;
 }
