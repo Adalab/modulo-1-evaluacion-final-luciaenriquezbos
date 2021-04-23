@@ -3,66 +3,102 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Adalab Web Starter Kit</title>
-    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet" />
+    <title>Modulo 1 evaluacion final Lucia Enriquez</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Slab&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="./assets/css/main.css" />
     <link rel="icon" href="./assets/images/favicon.png" />
   </head>
 
   <body>
-    <div class="page">
-      <header class="page__header">
-        <img src="./assets/images/logo-adalab.png" alt="Adalab">
-        <h1>Bienvenidos a Adalab</h1>
-      </header>
+    <header class="page__header">
+      <a class="menu" href="">
+        <img src="./assets/images/ico-menu.svg" alt="icon menu" />
+      </a>
+      <h1 class="anonimous">Anonymous Proxy</h1>
+      <p class="habittasse">In hac habitasse plate dictumst.</p>
+      <a class="button_footer" href="#">
+        <img src="./assets/images/ico-scroll-down.svg" alt="button header" />
+      </a>
+    </header>
 
-      <main class="page__main">
-        <h2>Este es el starter kit de Adalab</h2>
-        <p>Lo usamos para aprender:</p>
-        <ul class="main__list">
-          <li>Sass</li>
-          <li>HTML partials</li>
-          <li>Gulp</li>
-          <li>y muchas cosas más</li>
+    <main class="page__main">
+      <section>
+        <article>
+          <small class="text_sup">Insomnia Tips</small>
+          <h2>Looking through a window</h2>
+          <p>
+            Donec accumsan, nullaut volutpat porttitor, quam odio tempus felis, at
+            luctus ex diam nec lectus. Vivamus semper retrum.
+          </p>
+          <a href="#" title="open content">Go</a>
+        </article>
+      </section>
+
+      <section>
+        <h2>3 Reason to Purchase</h2>
+        <article>
+          <h3>Ut sed metus</h3>
+          <p>Lorem ipsum dolor sit amet consectetur.</p>
+        </article>
+        <article>
+          <h3>Curabitur ac erat</h3>
+          <p>Mauris mattis urna quis lorem molitese.</p>
+        </article>
+        <article>
+          <h3>Morbi dictum</h3>
+          <p>Aliquam in dolor et dolor tincidunt</p>
+        </article>
+
+        <a href="#" title="more reason">More Reason</a>
+      </section>
+    </main>
+
+    <footer>
+      <a href="#"><img src="./assets/images/ico-arrow.svg" alt="icon menu" /></a>
+
+      <nav class="links_web">
+        <ul>
+          <li>
+            <a href="#" title="link articles">ARTICLES</a>
+          </li>
+          <li>
+            <a href="#" title="link book">BOOK</a>
+          </li>
+          <li>
+            <a href="#" title="link events">EVENTS</a>
+          </li>
+          <li>
+            <a href="#" title="link reason">REASONS</a>
+          </li>
+          <li>
+            <a href="#" title="link tips">TIPS</a>
+          </li>
         </ul>
-        <p>Si quieres saber cúales son las rutas correctas para:</p>
-        <ul class="main__list">
+      </nav>
+      <nav class="links_social_media">
+        <ul>
           <li>
-            una <code class="code">&lt;img /&gt;</code> mira el fichero
-            <code class="code">./src/html/partials/header.html</code>.
+            <a href="https://twitter.com/Adalab_Digital" target="_blank">TWITTER</a>
           </li>
           <li>
-            y para un <code class="code">background-image</code> mira el fichero
-            <code class="code">./src/html/scss/layout/_page.scss</code>.
-          </li>
-        </ul>
-        <p>
-          Si quieres saber cómo usar un partial HTML dentro de otro partial, busca en la carperta
-          <code class="code">./src/html/index.html</code> y
-          <code class="code">./src/html/partials/main.html</code>, y verás cómo estamos creando estos
-          enlaces:
-        </p>
-        <ul class="main__list">
-          <li>
-            <a class="link__adalab" href="https://adalab.es">Adalab</a>
-
+            <a href="https://www.instagram.com/adalab_digital/" target="_blank"
+              >INSTAGRAM</a
+            >
           </li>
           <li>
-            <a class="" href="./more-info.html">Más info del starter kit</a>
-
+            <a href="https://mastodon.social/@mastodon_es" target="_blank"
+              >MASTODON.SOCIAL</a
+            >
           </li>
         </ul>
-      </main>
+      </nav>
 
-      <footer class="page__footer">
-        <small>
-          &copy; Todos los derechos reservados
-          <a class="link__adalab" href="https://adalab.es">Adalab</a>
+      <small>&copy 2021 </small>
+      <small>we 💖 components</small>
+    </footer>
 
-        </small>
-      </footer>
-
-    </div>
-    <script src="./assets/js/main.js"></script>
   </body>
 </html>
