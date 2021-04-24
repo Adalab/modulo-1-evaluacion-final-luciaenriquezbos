@@ -3,7 +3,7 @@ body {
   font-family: $font-main;
 }
 
-.page__main {
+.section_1 {
   padding-top: 30px;
   padding-left: 15px;
   padding-right: 15px;
@@ -45,6 +45,21 @@ body {
   border: solid 2px #f26002;
   border-radius: 22.5px;
   margin-bottom: 45px;
+}
+
+.section_2 {
+  background: #eff9ff;
+  padding-top: 30px;
+  padding-left: 15px;
+  padding-right: 15px;
+
+}
+
+.title_section2 {
+  font-size: 24px;
+  font-family: $font-title;
+  text-transform: bold;
+  text-transform: capitalize;
 }
 
 .article-list {
