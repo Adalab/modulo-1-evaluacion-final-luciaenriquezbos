@@ -38,7 +38,7 @@ body {
   height: 45px;
   justify-content: center;
   align-items: center;
-  $font-botton;
+  font-family: $font-botton;
   font-size: 20px;
   color: #f26002;
   border: solid 2px #f26002;
@@ -51,6 +51,7 @@ body {
   padding-top: 30px;
   padding-left: 15px;
   padding-right: 15px;
+  padding-bottom: 60px;
 }
 
 .title_section2 {
@@ -63,9 +64,9 @@ body {
 
 .article-list {
   display: grid;
-  grid-template-rows: 138px 138px 138px;
+  grid-template-rows: 115px 115px 115px;
   text-align: center;
-  padding: 45px px 45px 45px;
+  padding: 45px 70px 0px 70px;
 }
 
 .botton-reason {
