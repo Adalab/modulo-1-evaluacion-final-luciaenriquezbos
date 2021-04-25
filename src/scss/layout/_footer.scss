@@ -18,6 +18,9 @@
 .footer-links {
   font-family: $font-main;
   font-size: 16px;
+  line-height: 1.88;
+  text-transform: uppercase;
+  padding-top: 15px;
 }
 
 .footer-links a {
@@ -30,6 +33,7 @@
   justify-content: center;
   align-items: center;
   text-align: center;
+  padding-bottom: 30px;
 }
 
 .links_social_media {
@@ -38,4 +42,17 @@
   justify-content: center;
   align-items: center;
   text-align: center;
+  padding-bottom: 30px;
+}
+
+.I-love-Adalab {
+  padding-bottom: 45px;
+  color: white;
+  font-size: 14px;
+  font-family: $font-main;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  line-height: 2.14;
 }
