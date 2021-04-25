@@ -1,7 +1,28 @@
 .page__footer {
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100vw;
-  padding: 1rem;
+  background-color: #304268;
+}
+
+.footer-links {
+  font-family: $font-main;
+  font-size: 16px;
+}
+
+.footer-links a {
+  color: white;
+}
+
+.links_web {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.links_social_media {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
