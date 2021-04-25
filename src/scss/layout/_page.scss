@@ -7,6 +7,10 @@ body {
   padding-top: 30px;
   padding-left: 15px;
   padding-right: 15px;
+
+  @media all and (min-width: 720px) {
+    padding-left: 39px;
+  }
 }
 
 .text_sup {
@@ -57,7 +61,6 @@ body {
 .title_section2 {
   font-size: 24px;
   font-family: $font-title;
-  text-transform: bold;
   text-transform: capitalize;
   text-align: center;
 }
@@ -67,6 +70,13 @@ body {
   grid-template-rows: 115px 115px 115px;
   text-align: center;
   padding: 45px 55px 0px 55px;
+
+  @media all and (min-width: 720px) {
+    display: grid;
+    grid-template-columns: 227px 227px 227px;
+    grid-template-rows: 1fr;
+    padding: 60px 25px 0px 25px;
+  }
 }
 
 .botton-reason {
@@ -83,4 +93,13 @@ body {
 .botton-reason a {
   color: #ffffff;
   font-family: $font-botton;
+}
+
+.p_font {
+  font-size: 18px;
+}
+
+.t_font {
+  font-size: 18px;
+  font-family: $font-title;
 }
