@@ -21,6 +21,14 @@
   line-height: 1.88;
   text-transform: uppercase;
   padding-top: 15px;
+
+  @media (min-width: 720px) {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    padding-left: 40px;
+    padding-right: 40px;
+  }
 }
 
 .footer-links a {
@@ -43,6 +51,12 @@
   align-items: center;
   text-align: center;
   padding-bottom: 30px;
+
+  @media (min-width: 720px) {
+    position: absolute;
+    transform: translate(519px 45px);
+    text-align: left;
+  }
 }
 
 .I-love-Adalab {
