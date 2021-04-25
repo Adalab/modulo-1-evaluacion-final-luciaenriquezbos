@@ -28,6 +28,9 @@
     padding-left: 279px;
     padding-right: 40px;
   }
+  @media (min-width: 1280px) {
+    padding-left: 560px;
+  }
 }
 
 .footer-links a {
@@ -46,6 +49,11 @@
     text-align: left;
     align-items: flex-start;
   }
+
+  @media (min-width: 1280px) {
+    text-align: left;
+    align-items: flex-start;
+  }
 }
 
 .links_social_media {
@@ -59,6 +67,9 @@
   @media (min-width: 720px) {
     text-align: left;
     align-items: flex-start;
+  }
+  @media (min-width: 1280px) {
+    padding-right: 370px;
   }
 }
 
@@ -78,5 +89,10 @@
     align-items: flex-start;
     padding-left: 39px;
     transform: translateY(-180px);
+  }
+
+  @media (min-width: 1280px) {
+    padding-left: 370px;
+    width: 600px;
   }
 }
