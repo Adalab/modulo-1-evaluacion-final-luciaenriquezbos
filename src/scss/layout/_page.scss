@@ -73,9 +73,9 @@ body {
 
   @media all and (min-width: 720px) {
     display: grid;
-    grid-template-columns: 227px 227px 227px;
+    grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr;
-    padding: 60px 25px 0px 25px;
+    padding: 60px 25px 0 25px;
   }
 }
 
@@ -88,6 +88,11 @@ body {
   margin: auto;
   padding-top: 10px;
   border-radius: 22.5px;
+
+  @media all and (min-width: 720px) {
+    width: 210px;
+    margin-top: 60px;
+  }
 }
 
 .botton-reason a {
@@ -97,9 +102,19 @@ body {
 
 .p_font {
   font-size: 18px;
+  font-family: $font-main;
+
+  @media all and (min-width: 720px) {
+    font-size: 20px;
+  }
 }
 
 .t_font {
   font-size: 18px;
   font-family: $font-title;
+
+  @media all and (min-width: 720px) {
+    font-size: 24px;
+    line-height: 1.5;
+  }
 }
