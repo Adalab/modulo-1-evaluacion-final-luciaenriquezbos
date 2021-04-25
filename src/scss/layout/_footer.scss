@@ -2,6 +2,19 @@
   background-color: #304268;
 }
 
+.footer-botton {
+  width: 45px;
+  height: 45px;
+  background-color: white;
+  box-shadow: 0 2px 4px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform: translateY(-22px);
+  border-radius: 50%;
+  margin: auto;
+}
+
 .footer-links {
   font-family: $font-main;
   font-size: 16px;
