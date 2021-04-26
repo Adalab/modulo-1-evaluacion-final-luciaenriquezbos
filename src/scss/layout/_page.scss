@@ -75,7 +75,11 @@ body {
 
   transition: color ease 0.8s;
   &:hover {
-    color: black;
+    color: white;
+  }
+  transition: background-color ease 0.8s;
+  &:hover {
+    background-color: #f26002;
   }
 
   @media (min-width: 768px) {
@@ -148,7 +152,7 @@ body {
   transition: color ease 0.8s;
   &:hover {
     color: black;
-    font-size: 22px;
+    font-size: 24px;
   }
 }
 
