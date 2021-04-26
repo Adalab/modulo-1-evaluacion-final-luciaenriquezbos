@@ -13,6 +13,20 @@
   transform: translateY(-22px);
   border-radius: 50%;
   margin: auto;
+  // animacion
+  animation-name: hover;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+@keyframes hover {
+  from {
+    transform: scale(2) rotate(-150deg);
+  }
+  to {
+    transform: scale(1);
+  }
 }
 
 .footer-links {
