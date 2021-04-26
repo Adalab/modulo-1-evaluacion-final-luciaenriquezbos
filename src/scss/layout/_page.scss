@@ -10,6 +10,11 @@ body {
 
   @media all and (min-width: 720px) {
     padding-left: 39px;
+    padding-right: 39px;
+  }
+
+  @media (min-width: 1280px) {
+    padding-top: 60px;
   }
 }
 
@@ -49,6 +54,10 @@ body {
   border-radius: 22.5px;
   margin-bottom: 45px;
 
+  @media (min-width: 1280px) {
+    margin-bottom: 60px;
+  }
+
   .a.open_content {
     color: #2602f2;
     transition: color ease 0.8s;
@@ -64,6 +73,10 @@ body {
   padding-left: 15px;
   padding-right: 15px;
   padding-bottom: 60px;
+
+  @media (min-width: 1280px) {
+    padding-top: 60px;
+  }
 }
 
 .title_section2 {
@@ -84,6 +97,11 @@ body {
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr;
     padding: 60px 25px 0 25px;
+  }
+
+  @media (min-width: 1280px) {
+    padding-left: 85px;
+    padding-right: 85px;
   }
 }
 
