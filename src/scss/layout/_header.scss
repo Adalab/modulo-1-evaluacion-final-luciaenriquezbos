@@ -1,6 +1,8 @@
 .page__header {
-  background: url(../images/cover.jpg);
+  background-image: url(../images/cover.jpg),
+    linear-gradient(to bottom, rgb(248, 248, 234), rgb(77, 74, 74));
   background-size: cover;
+  background-blend-mode: multiply;
   background-repeat: no-repeat;
   background-position-x: center;
   height: 100vh;
