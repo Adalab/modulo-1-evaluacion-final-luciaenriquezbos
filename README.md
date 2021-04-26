@@ -32,7 +32,10 @@ Mediaqueris:
 760px
 1280px
 
-La nomenglatura en cada una de las clases hace referencia al elemento que corresponde, practicamente todo el documento está maquetado en el orden de disposición de sus elementos.
+La nomenclatura en cada una de las clases hace referencia al elemento que corresponde, practicamente todo el documento está maquetado en el orden de disposición de sus elementos.
+
+Transiciones en botones correspondientes al main.
+Aninación en botón correspondiente al footer.
 
 ## Estructura de carpetas
 
