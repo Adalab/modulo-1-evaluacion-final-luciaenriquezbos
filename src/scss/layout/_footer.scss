@@ -101,7 +101,7 @@
   line-height: 2.14;
 
   @media (min-width: 720px) {
-    width: 200px;
+    width: 500px;
     align-items: flex-start;
     padding-left: 39px;
     transform: translateY(-180px);
@@ -109,6 +109,5 @@
 
   @media (min-width: 1280px) {
     padding-left: 370px;
-    width: 600px;
   }
 }
