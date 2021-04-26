@@ -81,9 +81,8 @@
   @media (min-width: 720px) {
     text-align: left;
     align-items: flex-start;
-  }
-  @media (min-width: 1280px) {
-    padding-right: 370px;
+    position: absolute;
+    transform: translateX(191px);
   }
 }
 
