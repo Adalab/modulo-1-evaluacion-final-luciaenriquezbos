@@ -48,6 +48,14 @@ body {
   border: solid 2px #f26002;
   border-radius: 22.5px;
   margin-bottom: 45px;
+
+  .a.open_content {
+    color: #2602f2;
+    transition: color ease 0.8s;
+    &:hover {
+      color: black;
+    }
+  }
 }
 
 .section_2 {
