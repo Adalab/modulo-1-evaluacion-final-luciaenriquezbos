@@ -54,16 +54,13 @@ body {
   border-radius: 22.5px;
   margin-bottom: 45px;
 
-  @media (min-width: 1280px) {
-    margin-bottom: 60px;
+  transition: color ease 0.8s;
+  &:hover {
+    color: black;
   }
 
-  .a.open_content {
-    color: #2602f2;
-    transition: color ease 0.8s;
-    &:hover {
-      color: black;
-    }
+  @media (min-width: 1280px) {
+    margin-bottom: 60px;
   }
 }
 
